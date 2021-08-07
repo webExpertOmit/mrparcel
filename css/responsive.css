@@ -1,0 +1,129 @@
+ /*=====================================================================
+  Use a media query to add a breakpoint at min 1200px and max 2524px
+======================================================================*/
+@media screen and (min-device-width: 1200px) and (max-device-width: 2524px){
+    
+}
+
+
+/*=====================================================================
+  Use a media query to add a breakpoint at min 992px and max 1199px
+======================================================================*/
+@media screen and (min-device-width: 992px) and (max-device-width: 1199px){
+    
+}
+
+
+
+
+/*=====================================================================
+  Use a media query to add a breakpoint at min 768px and max 991px
+======================================================================*/
+@media screen and (min-device-width: 768px) and (max-device-width: 991px){
+     .login-form-area{
+        position: inherit;
+        margin: auto;
+        width: 400px;
+        margin-top: 50px;
+    }
+    .footer-center{
+        text-align: center;
+    }
+    .footer-margin{
+        margin-top: 80px;
+    }
+    .footer-mr{
+        text-align: right;
+    }
+    .footer-mr ul{
+        justify-content: flex-end;
+    }
+    .map-content{
+        width: 350px;
+    }
+    
+}
+
+
+
+
+/*=====================================================================
+  Use a media query to add a breakpoint at min 576px and max 767px
+======================================================================*/
+@media screen and (min-device-width: 576px) and (max-device-width: 767px){
+    .logo{
+        text-align: center;
+        display: block;
+        padding-top: 15px;
+    }
+    .manu-section ul{
+        justify-content: center;
+        padding-bottom: 15px;
+    }
+    .login-form-area{
+        position: inherit;
+        margin: auto;
+        width: 100%;
+        margin-top: 50px;
+    }
+    .section-title {
+        margin-top: 50px;
+    }
+    .footer-item{
+        margin-left: 25px;
+    }
+     .map-content{
+        width: 300px;
+         right: 10%;
+    }
+    
+}
+
+
+/*=====================================================================
+  Use a media query to add a breakpoint at min 300px and max 575px
+======================================================================*/
+@media screen and (min-device-width: 300px) and (max-device-width: 575px){
+       .logo{
+        text-align: center;
+        display: block;
+        padding-top: 15px;
+    }
+    .manu-section ul{
+        justify-content: center;
+        padding-bottom: 15px;
+    }
+    .login-form-area{
+        position: inherit;
+        margin: auto;
+        width: 100%;
+        margin-top: 50px;
+    }
+    .section-title {
+        margin-top: 50px;
+    }
+    .call h6{
+        font-size: 12px;
+    }
+    .lang{
+        font-size: 9px;
+    }
+    .footer-item{
+        margin-left: 25px;
+    }
+    
+    ul.our-nav-item li {
+        margin: 10px 0px;
+    }
+    .section-title h2{
+        font-size: 35px;
+    }
+     .map-content{
+        width: 150px;
+         right: 5%;
+    }
+    .map-content h3{
+        font-size: 12px;
+    }
+    
+}
